@@ -1,0 +1,30 @@
+.col-md-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.col-md-7 h2{
+    margin-left: 25%;
+}
+.col-md-7 p{
+    font-family: inherit;
+}
+.lead{
+    margin-left: 5%;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+.algae{
+    margin-right: 5%;
+}
+.mushroom{
+    margin-right: 5%;  
+}
+.picalgae{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
