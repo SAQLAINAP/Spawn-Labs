@@ -1,0 +1,33 @@
+/* .h-screen bg-cover bg-center flex items-center{ */
+
+
+.logo{
+    
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+       
+      
+}
+
+.main{
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+      
+}
+
+.img{
+    margin: auto;
+    display: block;
+    margin-top: 20%;
+    padding: 10%;
+}
+.main_text{
+    margin-top: 20px;
+}
