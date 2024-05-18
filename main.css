@@ -31,3 +31,31 @@
 .main_text{
     margin-top: 20px;
 }
+.luk{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.luk>h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 15px;
+}
+
+.luk>pre{
+    font-family: 'Inter', sans-serif;
+    color: #828282;
+    font-size: 24;
+}
+
+.luk>button{
+    
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 60px;
+}
