@@ -1,3 +1,4 @@
+
 .col-md-7{
     display: flex;
     justify-content: center;
@@ -6,9 +7,10 @@
 }
 .col-md-7 h2{
     margin-left: 25%;
+    font-size: 45px;
 }
 .col-md-7 p{
-    font-family: inherit;
+    font-family: 'Inter', sans-serif;
 }
 .lead{
     margin-left: 5%;
@@ -16,7 +18,8 @@
     font-size: 1.5rem;
 }
 .algae{
-    margin-right: 5%;
+    width: 50%;
+    margin-left: 300px;
 }
 .mushroom{
     margin-right: 5%;  
@@ -25,6 +28,44 @@
     height: 300px;
     width: 400px;
     margin-top: 10px;
+    margin-left: 10%; 
+}
+.mushroom_image{
     margin-left: 5%;
 }
-
+.nature-para{
+    width: 70%;
+    margin-left: 70px;
+}
+.nature-potential h2{
+    margin-left: 7%;
+    font-weight: bolder;
+}
+.algae-powerhouse h2{
+    margin-left: 30%;
+}
+.add-box p{
+    width: 50%;
+    margin-left: 10%;
+}
+.add-box h2{
+    margin-left: 7%;
+}
+.add-cont{
+    margin-top: 100px;
+}
+.mushroom-cont{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lead{
+    word-spacing: 0.05cap;
+    text-align: left;
+}
+.nature-cont{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.algae-powerhouse{
+    margin-top: 100px;
+}
