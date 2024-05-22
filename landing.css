@@ -973,158 +973,185 @@
 }
 
 /* from here style for feature section starts*/
-.col-md-7{
+.col-md-7 {
   display: flex;
   justify-content: center;
   align-items: center;
   display: block;
 }
-.col-md-7 h2{
+
+.col-md-7 h2 {
   margin-left: 25%;
   font-size: 45px;
 }
-.col-md-7 p{
+
+.col-md-7 p {
   font-family: 'Inter', sans-serif;
 }
-.lead{
+
+.lead {
   margin-left: 5%;
   padding-top: 40px;
   font-size: 1.5rem;
 }
-.algae{
+
+.algae {
   width: 50%;
   margin-left: 300px;
 }
-.mushroom{
-  margin-right: 5%;  
+
+.mushroom {
+  margin-right: 5%;
 }
-.picalgae{
+
+.picalgae {
   height: 300px;
   width: 400px;
   margin-top: 10px;
-  margin-left: 10%; 
+  margin-left: 10%;
 }
-.mushroom_image{
+
+.mushroom_image {
   margin-left: 5%;
 }
-.nature-para{
+
+.nature-para {
   width: 70%;
   margin-left: 70px;
 }
-.nature-potential h2{
+
+.nature-potential h2 {
   margin-left: 7%;
   font-weight: bolder;
 }
-.algae-powerhouse h2{
+
+.algae-powerhouse h2 {
   margin-left: 30%;
 }
-.add-box p{
+
+.add-box p {
   width: 50%;
   margin-left: 10%;
 }
-.add-box h2{
+
+.add-box h2 {
   margin-left: 7%;
 }
-.add-cont{
+
+.add-cont {
   margin-top: 100px;
 }
-.mushroom-cont{
+
+.mushroom-cont {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.lead{
+
+.lead {
   word-spacing: 0.05cap;
   text-align: left;
 }
-.nature-cont{
+
+.nature-cont {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.algae-powerhouse{
+
+.algae-powerhouse {
   margin-top: 100px;
 }
+
 /*here the style for feature section ends*/
 
 /* Hero section start*/
 /* .h-screen bg-cover bg-center flex items-center{ */
 
 
-  .logo{
-    
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    width: 50%;
-    align-items: center;
-   
-  
+.logo {
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+
+
 }
 
-.main{
-height: 100vh;
-display: block;
-margin-left: auto;
-margin-right: auto;
+.main {
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  
-}
 
-.img{
-margin: auto;
-display: block;
-margin-top: 20%;
- padding-bottom: 10%;
-}
-.main_text{
-margin-top: 20px;
-}
-.luk{
-background-color: #f7f7f7;
-text-align: center;
-}
-.luk>h1{
-font-size: 40px;
-font-weight: bold;
-font-family: 'Inter', sans-serif;
-padding-top: 5%;
-padding-bottom: 15px;
-text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.497);
 }
 
-.luk>pre{
-font-family: 'Inter', sans-serif;
-color: #828282;
-font-size: 24;
+.img {
+  margin: auto;
+  display: block;
+  margin-top: 20%;
+  padding-bottom: 10%;
 }
 
-.luk>button{
+.main_text {
+  margin-top: 20px;
+}
 
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 60px;
+.luk {
+  background-color: #f7f7f7;
+  text-align: center;
 }
-.luk>button:active{
-background: #1a1a1a;
+
+.luk>h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 15px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.497);
 }
+
+.luk>pre {
+  font-family: 'Inter', sans-serif;
+  color: #828282;
+  font-size: 24;
+}
+
+.luk>button {
+
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.luk>button:active {
+  background: #1a1a1a;
+}
+
 .carousel-item img {
   width: 65%;
   height: 450px;
   object-fit: cover;
 }
+
 .carousel-image-container {
-  border-radius: 15px; /* Adjust the value as needed for the desired curve */
+  border-radius: 15px;
+  /* Adjust the value as needed for the desired curve */
   overflow: hidden;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adjust the shadow properties as needed */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  /* Adjust the shadow properties as needed */
   justify-content: center;
 }
 
 .carousel-inner img {
-  border-radius: 20px; /* Match the border radius of the container */
+  border-radius: 20px;
+  /* Match the border radius of the container */
   justify-content: center;
 }
 
@@ -1177,9 +1204,72 @@ footer {
 .footer-container .location p i {
   margin-right: 10px;
 }
+
 .footer-container .social-media {
-  
-  text-align: center; /* Center social media icons */
-  margin-top: 90px;}
-  
-  /* footer section end*/
+
+  text-align: center;
+  /* Center social media icons */
+  margin-top: 90px;
+}
+
+/* footer section end*/
+/* navbar css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #292929f5;
+    height: 5%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    
+}
+
+/* The .navbar-logo class sets the styles for the logo inside the navigation bar */
+.navbar-logo {
+    height: 85%;
+    width: 2.5%;
+    margin-left: 1.5%;
+}
+
+/* The .nav-links class sets the styles for the container of the navigation links */
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+.navbar-logo img {
+    /* Set the height of the image to be 100% of the navbar height */
+    height: 100%;
+}
+
+/* The .nav-links a class sets the styles for the navigation links */
+.nav-links a {
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 30px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* The .nav-links a:hover class sets the styles for the navigation links when they are hovered over */
+.nav-links a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1b1b1b7f;
+}
+
+/* The .nav class sets the styles for the navigation container */
+.nav {
+    background-color: #1B1B1B;
+    overflow: auto;
+}
+
+/* The .nav a class sets the styles for the links inside the navigation container */
+.nav a {
+    float: right;
+    display: block;
+}
