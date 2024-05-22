@@ -1,3 +1,6 @@
+.body {
+  overflow-x: hidden;
+}
 .our-team {
   background-color: #ffffff;
   display: flex;
@@ -29,15 +32,6 @@
   object-fit: cover;
 }
 
-.our-team .navigation-footer {
-  position: absolute;
-  width: 1552px;
-  height: 264px;
-  top: 926px;
-  left: 93px;
-  background-color: #000000;
-  overflow: hidden;
-}
 
 .our-team .items {
   display: flex;
@@ -1159,117 +1153,153 @@
 
 /*footer section start*/
 
-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer-container div {
-  margin: 10px;
-  text-align: left;
-}
-
-.footer-container a {
-  color: #fff;
-  margin: 0 10px;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.footer-container a:hover {
-  color: #ddd;
-}
-
-.footer-container p {
-  margin: 5px 0;
-}
-
-.footer-container .contact p,
-.footer-container .location p {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.footer-container .contact p i,
-.footer-container .location p i {
-  margin-right: 10px;
-}
-
-.footer-container .social-media {
-
-  text-align: center;
-  /* Center social media icons */
-  margin-top: 90px;
-}
-
-/* footer section end*/
-/* navbar css */
+/* The .navbar class sets the styles for the navigation bar */
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #292929f5;
-    height: 5%;
-    overflow: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    overflow: hidden;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #292929f5;
+  height: 50px;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  
 }
 
 /* The .navbar-logo class sets the styles for the logo inside the navigation bar */
 .navbar-logo {
-    height: 85%;
-    width: 2.5%;
-    margin-left: 1.5%;
+  height: 75%;
+  width: 2.5%;
+  margin-left: 3.0%;
 }
 
 /* The .nav-links class sets the styles for the container of the navigation links */
 .nav-links {
-    display: flex;
-    justify-content: flex-end;
-    width: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
 }
 .navbar-logo img {
-    /* Set the height of the image to be 100% of the navbar height */
-    height: 100%;
+  /* Set the height of the image to be 100% of the navbar height */
+  height: 130%;
 }
 
 /* The .nav-links a class sets the styles for the navigation links */
 .nav-links a {
-    color: #ffffff;
-    text-align: center;
-    padding: 35px 30px;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px 23px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 /* The .nav-links a:hover class sets the styles for the navigation links when they are hovered over */
 .nav-links a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #1b1b1b7f;
+  color: rgb(255, 255, 255);
+  background-color: #1b1b1b7f;
 }
 
 /* The .nav class sets the styles for the navigation container */
-.nav {
-    background-color: #1B1B1B;
-    overflow: auto;
-}
+
 
 /* The .nav a class sets the styles for the links inside the navigation container */
 .nav a {
-    float: right;
-    display: block;
+  float: right;
+  display: block;
 }
+/* The .footer-main class sets the styles for the main footer */
+.footer-main {
+  background: #000000;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+  color: #ffffff;
+  padding: 3% 5%;
+  
+}
+
+/* The .footer-icons class sets the styles for the container of the icons in the footer */
+.footer-icons a i {
+  color: #ffffff;
+  font-size: 170%;
+}
+
+
+/* The .footer-icons a i class sets the styles for the icons in the footer */
+.footer-icons a i {
+  color: #ffffff;
+  font-size: 170%; /* Makes the icons white */
+}
+
+/* The .footer-icons a:nth-child(1):hover i class changes the color of the first icon in the footer when it's hovered over */
+.footer-icons a:nth-child(1):hover i {
+  color: #1877F2;
+}
+
+/* The .footer-icons a:nth-child(2):hover i class changes the color of the second icon in the footer when it's hovered over */
+.footer-icons a:nth-child(2):hover i {
+  color: #1DA1F2;
+}
+
+/* The .footer-icons a:nth-child(3):hover i class changes the color of the third icon in the footer when it's hovered over */
+.footer-icons a:nth-child(3):hover i {
+  color: #C13584;
+}
+
+/* The .footer-icons a:nth-child(4):hover i class changes the color of the fourth icon in the footer when it's hovered over */
+.footer-icons a:nth-child(4):hover i {
+  color: #0A66C2;
+}
+/* The .footer-space class allows the element to take up the remaining space in the footer */
+.footer-space {
+  flex-grow: 1;
+}
+
+
+/* The .footer-space class allows the element to take up the remaining space in the footer */
+.footer-content {
+  display: flex;
+}
+
+.footer-heading {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  color: #eee;
+  font-weight: 800;
+  font-size: 120%;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* The .footer-heading class sets the styles for the heading in the footer */
+.footer-details {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  color: #eee;
+  font-weight: 100;
+  font-size: 100%;
+  text-align: left;
+}
+
+/* The .footer-details:hover class changes the color and cursor when the footer details are hovered over */
+.footer-details:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* The .footer-img class sets the styles for the image in the footer */
+.footer-img {
+  width: 20%;
+  border-radius: 50%;
+  align-items: center;
+}
+
